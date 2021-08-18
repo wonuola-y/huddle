@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body{
+    background-image: url(./images/bg-mobile.svg);
+   background-color:  hsl(257, 40%, 49%);
+   margin: 0;
+   background-repeat: no-repeat;
+   background-size: 100%;
+ /* background-attachment: fixed; */
+}
+.logo{
+    padding: 30px;
+    width: 70%;
+     
+}
+
+.div-1{
+    font-family:  'Open Sans', sans-serif;
+   background-repeat: no-repeat;
+   background-size: 50vw;
+ background-attachment: fixed;
+    margin: 0;
+    
+}
+input{
+    padding: 10px  70px;
+    border: none;
+    border-radius: 18px;
+   color: hsl(257, 40%, 49%);
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+input:hover{
+    background-color:hsl(300, 69%, 71%) ;
+}
+h3, .div-2{
+    text-align: center;
+    color: white;
+    margin: 32px;
+    
+    
+}
+.div-2{
+    max-width: 800px;
+    font-family:  'Open Sans',
+     sans-serif;
+     font-weight: 400;
+     font-size: 17px;
+     padding: 0px;
+}
+/* .img{
+    padding: 50px;
+    width: 70%;
+    text-align: center;
+} */
+.mockup{
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+}
+.t-div{
+    width: 100%;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+@media screen and (min-width: 680px)
+{
+    .mockup{
+        width: 55vw;
+        padding: 20px;
+        text-align: center;
+    }
+   /* .div-1{
+       width: 60%;
+      
+   } */
+   /* .div-2{
+       width: 20%;
+      
+   } */
+   .logo{
+    padding: 30px;
+    width: 50vh;
+}
+   .mockup{
+    width: 55vw;
+    padding: 20px;
+    text-align: start;  
+   }
+ .t-div{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ }
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-repeat:no-repeat;
+        
+     background-size: 100%;
+
+    }
+    h3{
+        text-align: start;
+        margin: 0;
+        font-size: 40px;
+    }
+    .div-2{
+        width: 40%;
+        position: relative;
+        top: 150px;
+        text-align: start;
+        font-size: 18px;
+        
+    }
+    .div-1{
+          background-image: none;
+          width: 10%;
+    }
+}
