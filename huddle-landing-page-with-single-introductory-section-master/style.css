@@ -112,7 +112,7 @@ h3{
         font-size: 40px;
     }
     .div-2{
-        width: 40%;
+        flex-basis: 40%;
         position: relative;
         top: 150px;
         text-align: start;
@@ -121,6 +121,6 @@ h3{
     }
     .div-1{
           background-image: none;
-          width: 10%;
+          flex-basis: 10%;
     }
 }
